@@ -1,6 +1,6 @@
 Use C programming language only. and **only** where specified, use C++, Java, Python, or JavaScript. But default, everything here should be in pure C.
 - without using computer libraries or frameworks (or atleast as minimally as possible).
-- using vim standalone editor, or vim on the terminal of Ubuntu version 22.04.5 LTS or higher, (ideally Ubuntu, but if not another post April 2022 Fedora/Debian versions).
+- using vim standalone editor, or vim on the terminal of Ubuntu version 22.04.5 LTS or higher, on bash/zsh/dash shell, (ideally Ubuntu, but if not another post April 2022 Fedora/Debian versions).
 - how to write programs given at the end (refer to this section).
 - please go step by step, top to down, as this is way to strengthen the basics.
 
@@ -76,7 +76,7 @@ Use C programming language only. and **only** where specified, use C++, Java, Py
 1. A Fortran language implementation (front-end) which also includes a standalone transpiler, in C.
 2. A custom developed C standard library function (method/subroutine), for example print-f.
 3. Scheme language implementation (front-end) which also includes a standalone transpiler, in C.
-4. A Unix shell intepreter (a simple bash clone), and a simple Linux/Unix clone.
+4. A Unix shell intepreter (a simple bash/tcsh clone), and a simple Linux/Unix clone.
 5. A C programming language implementation (front-end) which also includes a standalone transpiler, in C.
 
 ## CS and CE part 3:
@@ -91,9 +91,9 @@ Use C programming language only. and **only** where specified, use C++, Java, Py
 1. Implementation of SQL in C.
 2. x-86-64 language implementation (front-end) which also includes a standalone compiler, in C programming language.
 3. An Ada language implementation (front-end) which also includes a standalone transpiler, in C.
+4. Standard ML (S Meta Language) implementation (front-ends) in C with standalone interpreter (with bytecodes) and Virtual Machine, in C.
 4. Machine Learning and AI: A Probably approximately correct (PAC) learning project.
-5. A C++ language implementation (front-ends) in C with standalone interpreter (with bytecodes) and Virtual Machine, in C.
-6. Completely optional project: Haskell language implementation (front-ends) in C with standalone interpreter (with bytecodes) and Virtual Machine, in C. 
+5. A C++ language implementation (front-ends) in C with standalone interpreter (with bytecodes) and Virtual Machine, in C. 
 7. A Python and CPython language implementations (front-ends) in C with standalone interpreter (with bytecodes) and Virtual Machine, in C.
 
 ### Artificial Intelligence and Machine Learning (AI and ML) part 1:
