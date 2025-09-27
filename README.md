@@ -91,7 +91,7 @@ Use C programming language only. and **only** where specified, use C++, Java, Py
 1. Implementation of SQL in C.
 2. x-86-64 language implementation (front-end) which also includes a standalone compiler, in C programming language.
 3. An Ada language implementation (front-end) which also includes a standalone transpiler, in C.
-4. Standard ML (S Meta Language) implementation (front-ends) in C with standalone interpreter (with bytecodes) and Virtual Machine, in C.
+4. Optional project: Standard ML (S Meta Language) implementation (front-ends) in C with standalone interpreter (with bytecodes) and Virtual Machine, in C.
 4. Machine Learning and AI: A Probably approximately correct (PAC) learning project.
 5. A C++ language implementation (front-ends) in C with standalone interpreter (with bytecodes) and Virtual Machine, in C. 
 7. A Python and CPython language implementations (front-ends) in C with standalone interpreter (with bytecodes) and Virtual Machine, in C.
