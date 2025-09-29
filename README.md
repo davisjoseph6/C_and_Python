@@ -14,8 +14,9 @@ Use C programming language only. and **only** where specified, use C++, Java, Py
 # 2 cs and ce (Computer Science and Computer Engineering)
 
 ## CS and CE part 1: The basics, foundations, fundamentals:
-- Computational complexity theory,
+- Arithmetic circuit complexity
 - zipper data structure 
+- Geometric complexity theory
 - heap (data structures)
 - Algebraic data type,
 - Information geometry
@@ -53,6 +54,7 @@ Use C programming language only. and **only** where specified, use C++, Java, Py
 6. A simple clone of Multics shell intepreter, and a simple Multics clone, in C.
 
 ## CS and CE part 2:
+- Circuit complexity
 - Graph data structure
 - Functional data structures
 - buchberger’s algorithm
@@ -69,6 +71,7 @@ Use C programming language only. and **only** where specified, use C++, Java, Py
 - homological algebra
 - theory of cryptography
 - proof theory
+- Computational complexity theory
 - Recursion/computability theory
 - Set theory
 
@@ -86,6 +89,7 @@ Use C programming language only. and **only** where specified, use C++, Java, Py
 - algebraic topology
 - models of computation
 - Logical calculi
+- Theory of computation
 
 ### Projects part 3.
 1. Implementation of SQL in C.
