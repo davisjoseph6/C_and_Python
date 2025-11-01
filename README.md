@@ -43,6 +43,7 @@ Use C programming language only. and **only** where specified, use C++, Java, Py
 - Reduction (complexity)
 - DEC PDP-11 Instruction set Architecture
 - Finite model theory
+- Differential geometry
 
 ### Projects part 1:
 1. binary system and IBM System/360 machine code.
@@ -74,6 +75,7 @@ Use C programming language only. and **only** where specified, use C++, Java, Py
 - Computational complexity theory
 - Recursion/computability theory
 - Set theory
+- Geometric algorithms
 
 ### Projects part 2. 
 1. A Fortran language implementation (front-end) which also includes a standalone transpiler, in C.
