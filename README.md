@@ -1,19 +1,19 @@
-Use C programming language only. and **only** where specified, use C++, Java, Python, or JavaScript. But default, everything here should be in pure C.
+Use C programming language only. and **only** where specified, use C++, and Python. Where it is specified, use Java, or JavaScript. But default, everything here should be in pure C.
 - without using computer libraries or frameworks (or atleast as minimally as possible).
-- using vim standalone editor, or vim on the terminal of Ubuntu version 22.04.5 LTS or higher, on bash/zsh/dash shell, (ideally Ubuntu, but if not another post April 2022 Fedora/Debian versions).
+- using vim standalone editor (ideal), or vim on the terminal of Ubuntu version 22.04.5 LTS or higher, on bash/zsh/dash shell, (ideally Ubuntu, but if not another post April 2022 Fedora/Debian versions).
 - how to write programs given at the end (refer to this section).
 - please go step by step, top to down, as this is way to strengthen the basics.
 
-# 1 theoretical foundations 
+# 1 theoretical foundations (in order)
 1. Algebraic geometry
 2. Category Theory
 3. Higher Category Theory
-4. Model theory 
-5. Topos theory
+4. Topos theory
+5. Model theory
 
 # 2 cs and ce (Computer Science and Computer Engineering)
 
-## CS and CE part 1: The basics, foundations, fundamentals:
+## 1.1 CS and CE part 1: The basics, foundations, fundamentals (in any order):
 - Arithmetic circuit complexity
 - zipper data structure 
 - Geometric complexity theory
@@ -45,7 +45,7 @@ Use C programming language only. and **only** where specified, use C++, Java, Py
 - Finite model theory
 - Differential geometry
 
-### Projects part 1:
+### 1.2 Projects part 1:
 1. binary system and IBM System/360 machine code.
 2. Hardware project: Integrated circuits.  
 2. objdump disassembler and GNU assembler for IBM System/360, and IBM System/360 assembly language (if possible, otherwise for IBM High Level Assembler (HLASM)).
@@ -54,7 +54,7 @@ Use C programming language only. and **only** where specified, use C++, Java, Py
 5. An Algol 60 (if possible, or else Pascal) implementation (front-end) which also includes a standalone transpiler, in C.
 6. A simple clone of Multics shell intepreter, and a simple Multics clone, in C.
 
-## CS and CE part 2:
+## 2.1 CS and CE part 2:
 - Circuit complexity
 - Graph data structure
 - Functional data structures
@@ -77,14 +77,18 @@ Use C programming language only. and **only** where specified, use C++, Java, Py
 - Set theory
 - Geometric algorithms
 
-### Projects part 2. 
+### 2.2 Artificial Intelligence and Machine Learning (AI and ML) part 1:
+- Probably approximately correct (PAC) Learning
+- Statistical learning theory
+
+### 2.3 Projects part 2. 
 1. A Fortran language implementation (front-end) which also includes a standalone transpiler, in C.
 2. A custom developed C standard library function (method/subroutine), for example print-f.
 3. Scheme language implementation (front-end) which also includes a standalone transpiler, in C.
 4. A Unix shell intepreter (a simple bash/tcsh clone), and a simple Linux/Unix clone.
 5. A C programming language implementation (front-end) which also includes a standalone transpiler, in C.
 
-## CS and CE part 3:
+## 3.1 CS and CE part 3:
 - Mathematical logic
 - Formal logic
 - Imperative programming.
@@ -93,7 +97,7 @@ Use C programming language only. and **only** where specified, use C++, Java, Py
 - Logical calculi
 - Theory of computation
 
-### Projects part 3.
+### 3.2 Projects part 3.
 1. Implementation of SQL in C.
 2. x-86-64 language implementation (front-end) which also includes a standalone compiler, in C programming language.
 3. An Ada language implementation (front-end) which also includes a standalone transpiler, in C.
@@ -102,35 +106,35 @@ Use C programming language only. and **only** where specified, use C++, Java, Py
 5. A C++ language implementation (front-ends) in C with standalone interpreter (with bytecodes) and Virtual Machine, in C. 
 7. A Python and CPython language implementations (front-ends) in C with standalone interpreter (with bytecodes) and Virtual Machine, in C.
 
-### Artificial Intelligence and Machine Learning (AI and ML) part 1:
-- Probably approximately correct (PAC) Learning
-- Statistical learning theory
-- Partially observable Markov decision process
-
-### Projects part 4.
-1. C++/C: MySQL Connector/ODBC (MyODBC) and mysqld (server) in C++, and Connector/C (libmysqlclient) in C. 
-2. C++: Java implementations (front-ends) in C++ with standalone interpreter (with bytecodes) and Virtual Machine.
-3. C++: JavaScript implementations (front-ends) in C++ with standalone interpreter (with bytecodes) and Virtual Machine.
-4. C++: Implementation of NoSQL in C++ .
-
-### AI and ML part 2:
+### 3.3 AI and ML part 2:
 - Neural tangent kernel,
 - Mean-field theory
 - Computational Learning Theory,
 - Vapnik–Chervonenkis theory,
 - Topological deep learning.
+- Bias–variance tradeoff
+- Empirical risk minimization
+- Occam learning
+- Kernel method
+- Partially observable Markov decision process
 
-### Projects part 5.
+### 3.4 Projects part 4.
+1. C++/C: MySQL Connector/ODBC (MyODBC) and mysqld (server) in C++, and Connector/C (libmysqlclient) in C. 
+2. C++: Java implementations (front-ends) in C++ with standalone interpreter (with bytecodes) and Virtual Machine.
+3. C++: JavaScript implementations (front-ends) in C++ with standalone interpreter (with bytecodes) and Virtual Machine.
+4. C++: Implementation of NoSQL in C++ .
+
+### 3.5 Projects part 5.
 1. Java: Scala implementations (front-ends) in Java with standalone interpreter (with bytecodes) and Virtual Machine.
 2. Python: AI Project: Deep Multi-Agent Reinforcement Learning with Partially Observable Markov Decision Process (POMDP), Using Policy Gradients and a Transformer-Based Deep Neural Network, with an Exploration/Exploitation Balance, and Deep Q-Learning.
 3. Java/C++/C: Distributed/Cloud computing architecture exercise: implement a project involving pi-calculus and an actor model (computer science).
 4. Nvidia CUDA and compiler clone following GPGPU format, with a virtual ISA written in C.  
 5. C++/C: MongoDB server (mongod) in C++ and low level driver (libmongoc + libbson) in C.
 
-### AI and ML part 3.
+### 3.6 AI and ML part 3.
 - check the README.md inside this folder path (`2_cs_and_ce/cs_and_ce_part_3/ai_and_ml_part3/`) for topics.
 
-### Projects part 6.
+### 3.7 Projects part 6.
 1. Python and JavaScript: Machine Learning and AI: Move on to hosting and deploying the PAC learning project (from the section Projects part 3.) locally first, then to Amazon Web Services (on SageMaker and Elastic Container Service), Microsoft Azure, or Digital Ocean if the first two options are unavailable.
 
 # 4 applied,interdisciplinary science
