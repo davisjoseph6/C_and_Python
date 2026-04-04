@@ -25,32 +25,34 @@ Use C programming language only. and **only** where specified, use C++, and Pyth
 # 2 cs and ce (Computer Science and Computer Engineering)
 
 ## 1.1 CS and CE part 1: The basics, foundations, fundamentals (in any order):
-- Turing machine
-- Lambda calculus
 - Reduction (complexity)
 - Arithmetic circuit complexity
 - Geometric complexity theory
 - Theory of cryptography
+- Turing machine
+- Lambda calculus
 - Recursion and continuations
 - Pi-calculus
-- Heap (data structures)
-- Zipper data structure
-- Functional programming
-- Algebraic data type
-- Domain theory
 - Lexical analysis
 - Program analysis
-- Relational algebra
-- Finite model theory
-- Differential geometry
-- Sheaf theory
-- Homotopy theory
-- Categorical logic
-- Discrete geometry
 - Spectral graph theory
-- Linear programming
+- Heap (data structures)
+- Zipper data structure
+- Sheaf theory
+- Discrete geometry
+- Categorical logic
+- Domain theory
+- Polymorphism (computer science)
+- Functional programming
+- Algebraic data type
+- Homotopy theory
+- Homotopy type theory
+- Finite model theory
+- Relational algebra
 - Statistical signal processing
 - Maxwell’s equations
+- Linear programming
+- Differential geometry
 - DEC PDP-11 Instruction Set Architecture
 
 ### 1.2 Projects part 1:
