@@ -5,45 +5,53 @@ Use C programming language only. and **only** where specified, use C++, and Pyth
 - please go step by step, top to down, as this is way to strengthen the basics.
 
 # 1 theoretical foundations (in order)
-1. Algebraic geometry
-2. Category Theory
-3. Higher Category Theory
-4. Topos theory
-5. Model theory
+1. Theory of computation
+2. Computational complexity theory
+3. Computability theory
+4. Algorithms
+5. Algorithms and data structures
+6. Algebraic geometry
+7. Category Theory
+8. Higher Category Theory
+9. Topos theory
+10. Model theory
+11. Optimal Control
+12. Partial differential equations
+13. Convex optimization
+14. Information geometry
+15. Martingale (probability theory)
+16. Stochastic differential equations
 
 # 2 cs and ce (Computer Science and Computer Engineering)
 
 ## 1.1 CS and CE part 1: The basics, foundations, fundamentals (in any order):
-- Arithmetic circuit complexity
-- zipper data structure 
-- Geometric complexity theory
-- heap (data structures)
-- Algebraic data type,
-- Information geometry
-- Linear programming 
-- Partial differential equations
-- Domain theory
-- Optimal Control
-- Program analysis
-- Lexical analysis
-- Maxwell's equations
-- Statistical signal processing
 - Turing machine
 - Lambda calculus
-- Recursion, and Continuations
-- Functional programming
-- spectral graph theory
-- relational algebra
-- pi-calculus
-- theory of cryptography
-- discrete geometry
-- sheaf theory/sheaf(mathematics)
-- homotopy theory
-- categorical logic
 - Reduction (complexity)
-- DEC PDP-11 Instruction set Architecture
+- Arithmetic circuit complexity
+- Geometric complexity theory
+- Theory of cryptography
+- Recursion and continuations
+- Pi-calculus
+- Heap (data structures)
+- Zipper data structure
+- Functional programming
+- Algebraic data type
+- Domain theory
+- Lexical analysis
+- Program analysis
+- Relational algebra
 - Finite model theory
 - Differential geometry
+- Sheaf theory
+- Homotopy theory
+- Categorical logic
+- Discrete geometry
+- Spectral graph theory
+- Linear programming
+- Statistical signal processing
+- Maxwell’s equations
+- DEC PDP-11 Instruction Set Architecture
 
 ### 1.2 Projects part 1:
 1. binary system and IBM System/360 machine code.
@@ -76,10 +84,15 @@ Use C programming language only. and **only** where specified, use C++, and Pyth
 - Recursion/computability theory
 - Set theory
 - Geometric algorithms
+- Spectral theory
+- Algebraic graph theory
 
 ### 2.2 Artificial Intelligence and Machine Learning (AI and ML) part 1:
 - Probably approximately correct (PAC) Learning
+- computational learning theory
+- empirical risk minimization
 - Statistical learning theory
+
 
 ### 2.3 Projects part 2. 
 1. A Fortran language implementation (front-end) which also includes a standalone transpiler, in C.
@@ -96,6 +109,7 @@ Use C programming language only. and **only** where specified, use C++, and Pyth
 - models of computation
 - Logical calculi
 - Theory of computation
+- Graph theory
 
 ### 3.2 Projects part 3.
 1. Implementation of SQL in C.
