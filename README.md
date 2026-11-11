@@ -1,6 +1,6 @@
 Use C programming language only. and **only** where specified, use C++, and Python. Where it is specified, use Java, or JavaScript. But default, everything here should be in pure C.
-- without using computer libraries or frameworks (or atleast as minimally as possible).
-- using vim standalone editor (ideal), or vim on the terminal of Ubuntu version 22.04.5 LTS or higher, on bash/zsh/dash shell, (ideally Ubuntu, but if not another post April 2022 Fedora/Debian versions).
+- without using computer libraries, modules or frameworks (or atleast as minimally as possible).
+- using xtrerm (ideal), ex-vi, nvi editor, or vim on the terminal of Ubuntu version 22.04.5 LTS or higher, on bash/zsh/dash shell, (ideally Ubuntu, but if not another post April 2022 Fedora/Debian versions).
 - how to write programs given at the end (refer to this section).
 - please go step by step, top to down, as this is way to strengthen the basics.
 
